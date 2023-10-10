@@ -1,15 +1,10 @@
-Welcome to your new dbt project!
+# dbt + duckdb + poetry
 
-### Using the starter project
+This repo is simply a slightly different take on the 
+[jaffle_shop_duckdb](https://github.com/dbt-labs/jaffle_shop_duckdb) repo.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Whereas the original relies on manual versioning environments with `venv` and `pip` and 
+`requirements.txt` files, this version relies solely on [poetry](https://python-poetry.org/) 
+for package and environment management.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+![](assets/forhead-tap.jpg)
