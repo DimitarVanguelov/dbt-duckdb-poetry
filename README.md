@@ -27,3 +27,8 @@ cd dbt-duckdb-poetry
 poetry install --no-root && poetry shell
 dbt build && dbt docs generate && dbt docs serve
 ```
+
+## Requirements
+The only requirements are:
+- python (v3.10 or higher)
+- poetry (I'm currently using v1.6.1)
