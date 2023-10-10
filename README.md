@@ -8,3 +8,9 @@ Whereas the original relies on manual versioning environments with `venv` and `p
 for package and environment management.
 
 ![](assets/forhead-tap.jpg)
+
+## sqlfluff + pre-commit
+This repo also uses [sqlfluff](https://docs.sqlfluff.com/en/stable/index.html) and
+[pre-commit](https://pre-commit.com/) to lint and fix .sql files.
+
+*more head taps*
